@@ -1,0 +1,148 @@
+<aside id="sidebar" class="sidebar">
+  <ul class="sidebar-nav" id="sidebar-nav">
+    <li class="nav-item">
+      <a class="nav-link collapsed" routerLink="">
+        <i class="bi bi-grid"></i>
+        <span>Accueil</span>
+      </a>
+    </li>
+    <!-- End Dashboard Nav -->
+    <li class="nav-item">
+      <a
+        class="nav-link collapsed"
+        data-bs-target="#Annonces-nav"
+        data-bs-toggle="collapse"
+        href="#"
+      >
+        <i class="fa-solid fa-calendar-days"></i><span>Annonces</span
+      ><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul
+        id="Annonces-nav"
+        class="nav-content collapse"
+        data-bs-parent="#sidebar-nav"
+      >
+        <li>
+          <a routerLink="annonces">
+            <i class="bi bi-circle"></i><span>Afficher les Annonces</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="annonces/create">
+            <i class="bi bi-circle"></i><span>Ajouter une Annonce</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link collapsed"
+        data-bs-target="#ecoles-nav"
+        data-bs-toggle="collapse"
+        href="#"
+      >
+        <i class="fa-solid fa-school"></i><span>Ecole Doctorale</span
+        ><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul
+        id="ecoles-nav"
+        class="nav-content collapse"
+        data-bs-parent="#sidebar-nav"
+      >
+        <li>
+          <a routerLink="ecole-doctorales">
+            <i class="bi bi-circle"></i><span>Afficher les Ecoles</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="ecole-doctorales/create">
+            <i class="bi bi-circle"></i><span>Ajouter une Ecole</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav-item">
+      <a
+        class="nav-link collapsed"
+        data-bs-target="#sections-nav"
+        data-bs-toggle="collapse"
+        href="#"
+      >
+        <i class="fa-solid fa-users-between-lines"></i><span>Sections</span
+      ><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul
+        id="sections-nav"
+        class="nav-content collapse"
+        data-bs-parent="#sidebar-nav"
+      >
+        <li>
+          <a routerLink="sections">
+            <i class="bi bi-circle"></i><span>Afficher les Sections</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="sections/create">
+            <i class="bi bi-circle"></i><span>Ajouter une Section</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav-item">
+      <a
+        class="nav-link collapsed"
+        data-bs-target="#groupes-nav"
+        data-bs-toggle="collapse"
+        href="#"
+      >
+        <i class="fa-solid fa-user-group"></i><span>Groupe</span
+      ><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul
+        id="groupes-nav"
+        class="nav-content collapse"
+        data-bs-parent="#sidebar-nav"
+      >
+        <li>
+          <a routerLink="groups">
+            <i class="bi bi-circle"></i><span>Afficher les Groupes</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="groups/create">
+            <i class="bi bi-circle"></i><span>Ajouter un Groupe</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link collapsed"
+        data-bs-target="#schedules-nav"
+        data-bs-toggle="collapse"
+        href="#"
+      >
+        <i class="fa-solid fa-calendar-days"></i><span>Emploi du temps</span
+      ><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul
+        id="schedules-nav"
+        class="nav-content collapse"
+        data-bs-parent="#sidebar-nav"
+      >
+        <li>
+          <a routerLink="schedules">
+            <i class="bi bi-circle"></i><span>Afficher les Emplois du Temps</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="schedules/create">
+            <i class="bi bi-circle"></i><span>Ajouter un Emploi du Temps</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</aside>
